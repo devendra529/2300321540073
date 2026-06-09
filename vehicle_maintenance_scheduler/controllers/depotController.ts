@@ -1,3 +1,5 @@
+// depotController.ts
+// it sis used to define the controller for the depot routes.
 import { Request, Response } from "express";
 import { buildSchedule } from "../services/schedulerService";
 
