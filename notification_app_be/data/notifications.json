@@ -1,0 +1,64 @@
+{
+  "notifications": [
+    {
+      "ID": "c1d6095a-d086-4a34-9e09-390ba14570bc",
+      "Type": "Result",
+      "Message": "mid-sem",
+      "Timestamp": "2026-04-22 17:51:38"
+    },
+    {
+      "ID": "b2803318-aa1a-4b7b-93a9-143298b05f98",
+      "Type": "Placement",
+      "Message": "CSX Corporation hiring",
+      "Timestamp": "2026-04-22 17:51:18"
+    },
+    {
+      "ID": "811b9ada-0ae3-f477-b954-f12fb510e294",
+      "Type": "Event",
+      "Message": "farewell",
+      "Timestamp": "2026-04-22 17:51:08"
+    },
+    {
+      "ID": "0005513a-1d2b-4bbc-8078-eefecc61e1de",
+      "Type": "Result",
+      "Message": "mid-sem",
+      "Timestamp": "2026-04-22 17:50:54"
+    },
+    {
+      "ID": "ea830236-c31e-4931-a72f-564a6af8a374",
+      "Type": "Result",
+      "Message": "project-review",
+      "Timestamp": "2026-04-22 17:50:42"
+    },
+    {
+      "ID": "0051b457-0fc6-4787-bb08-0e238e5dbd2c",
+      "Type": "Event",
+      "Message": "external",
+      "Timestamp": "2026-04-22 17:50:30"
+    },
+    {
+      "ID": "a5c44f928-31bf-4d68-8f42-729da59e8918",
+      "Type": "Result",
+      "Message": "project-review",
+      "Timestamp": "2026-04-22 17:50:18"
+    },
+    {
+      "ID": "1c9ca5ee-ad37-4894-8946-d70762f370a5",
+      "Type": "Event",
+      "Message": "tech-fest",
+      "Timestamp": "2026-04-22 17:50:06"
+    },
+    {
+      "ID": "cf2885a5-45ac-4ba0-b548-6e9e8d4c52c8",
+      "Type": "Result",
+      "Message": "project-review",
+      "Timestamp": "2026-04-22 17:50:54"
+    },
+    {
+      "ID": "8a74132d-6803-4d0b-8581-a1f711cc8f6b",
+      "Type": "Placement",
+      "Message": "Advanced Micro Devices Inc. hiring",
+      "Timestamp": "2026-04-22 17:49:42"
+    }
+  ]
+}

@@ -1,8 +1,16 @@
+// app.ts
+// it is used to set up the express server and define the routes for the application.
+//it is also used to set up the logging middleware for the application.
+
 import express from "express";
-import { requestLogger, errorLogger } from "../logging_middleware";
+import cors from "cors";
+import notificationRoutes from "./routes/notificationRoutes";
+import { requestLogger } from "../logging_middleware/requestLogger";
+import { errorLogger } from "../logging_middleware/errorLogger";
 
 const app = express();
 
+app.use(cors());
 app.use(express.json());
 app.use(requestLogger);
 
@@ -13,9 +21,7 @@ app.get("/", (_, res) => {
   });
 });
 
-app.get("/test-error", () => {
-  throw new Error("Testing middleware");
-});
+app.use("/api/notifications", notificationRoutes);
 
 app.use(errorLogger);
 
